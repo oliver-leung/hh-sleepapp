@@ -7,10 +7,10 @@ package com.sleep.sleepapp;
 
 
 public class patientInfo {
-    static private String name; //Legal name
+    static private String name = "Testbob Defaultpants"; //Legal name
     static private String sex = "m"; //"m" or "f"
-    static private int weight; //weight in pounds
-    static private int height; //height in inches
+    static private int weight =  999; //weight in pounds
+    static private int height =  999; //height in inches
     static private SleepInfo sInfo; //stores Sleep Info
 
     private patientInfo(){
