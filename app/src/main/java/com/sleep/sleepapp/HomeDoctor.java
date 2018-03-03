@@ -5,4 +5,5 @@ package com.sleep.sleepapp;
  */
 
 public class HomeDoctor {
+    //on click of the image, take to the patient's data
 }
