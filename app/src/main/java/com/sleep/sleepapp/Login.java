@@ -15,12 +15,11 @@ import android.widget.TextView;
  * Created by vivian on 3/3/18.
  */
 
-public class Login {
-
+public class Login extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+        setContentView(R.layout.login);
     }
+
 }
