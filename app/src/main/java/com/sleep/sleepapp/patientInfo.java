@@ -4,5 +4,33 @@ package com.sleep.sleepapp;
  * Created by 2718281828 on 3/3/18.
  */
 
-public class PatientInfo {
+
+
+public class patientInfo {
+    static private String name; //Legal name
+    static private String sex = "m"; //"m" or "f"
+    static private int weight; //weight in pounds
+    static private int height; //height in inches
+    static private SleepInfo sInfo; //stores Sleep Info
+
+    private patientInfo(){
+
+    }
+
+    public static int getWeight(){
+        return weight;
+    }
+    public static int getHeight(){
+        return height;
+    }
+    public static void setWeight(int w){
+        if(w>0){weight=w;}
+    }
+    public static void setHeight(int h){
+        if(h>0){height=h;}
+    }
+
+
+
+
 }

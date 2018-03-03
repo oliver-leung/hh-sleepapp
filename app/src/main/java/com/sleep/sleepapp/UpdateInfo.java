@@ -4,11 +4,12 @@ import android.net.wifi.p2p.WifiP2pManager;
 import android.net.wifi.p2p.WifiP2pManager.ActionListener;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 
-public class UpdateInfo extends AppCompatActivity implements ActionListener {
+public class UpdateInfo extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +17,7 @@ public class UpdateInfo extends AppCompatActivity implements ActionListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.update_info);
 
-        Spinner wtSpinner = findViewById(R.id.weightSpinner);
+        final Spinner wtSpinner = findViewById(R.id.weightSpinner);
 
         Integer[] pounds = new Integer[400];
         for(int i=0; i<pounds.length; i++){
@@ -27,7 +28,7 @@ public class UpdateInfo extends AppCompatActivity implements ActionListener {
 
         wtSpinner.setAdapter(adapter);
 
-        Spinner htSpinner = findViewById(R.id.heightSpinner);
+        final Spinner htSpinner = findViewById(R.id.heightSpinner);
 //create a list of items for the spinner.
         Integer[] inches = new Integer[100];
         for(int i=0; i<inches.length; i++){
@@ -40,15 +41,16 @@ public class UpdateInfo extends AppCompatActivity implements ActionListener {
         htSpinner.setAdapter(adapter2);
 
         Button saveButton = findViewById(R.id.updateConfirmButton);
+        saveButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+               int newWt = (int)wtSpinner.getSelectedItem();
+               int newHt = (int)htSpinner.getSelectedItem();
+               patientInfo.setWeight(newWt);
+               patientInfo.setHeight(newHt);
+
+            }
+        });
     }
 
-    @Override
-    public void onSuccess() {
 
-    }
-
-    @Override
-    public void onFailure(int i) {
-
-    }
 }
