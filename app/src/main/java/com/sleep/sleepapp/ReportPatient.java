@@ -31,7 +31,9 @@ public class ReportPatient extends AppCompatActivity {
             if(QuestionnaireResult.currIndex==2){
                 qRes.setAns(2, true);
                 DoctorData.addData(qRes);
-                //RETURN TO HOME PAGE
+                startActivity(new Intent(ReportPatient.this, ProfilePatient.class));
+
+
                 QuestionnaireResult.currIndex=0;
             }
             else{

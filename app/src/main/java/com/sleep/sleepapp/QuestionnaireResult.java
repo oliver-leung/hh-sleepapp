@@ -12,7 +12,7 @@ import java.util.Date;
 public class QuestionnaireResult {
 
 
-    static final String[] questions = {"How did you sleep last night?", "How are you feeling now?", "ghfjfhdhtey"};
+    static final String[] questions = {"How did you sleep?", "How tired are you?", "How happy are you?"};
     static int currIndex; //from 0-2, gives current index of var questions
     boolean[] answers = new boolean[3]; // yes/no answer storage
     Date timestamp; //date that the object was constructed

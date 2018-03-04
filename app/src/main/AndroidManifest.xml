@@ -36,6 +36,10 @@
             android:name="ReportPatient"
             android:label="tran.z.ent">
         </activity>
+        <activity
+            android:name="ProfilePatient"
+            android:label="tran.z.ent">
+        </activity>
     </application>
 
 </manifest>
