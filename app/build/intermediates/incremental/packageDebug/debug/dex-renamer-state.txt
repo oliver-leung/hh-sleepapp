@@ -1,4 +1,4 @@
-#Sat Mar 03 18:07:16 EST 2018
+#Sun Mar 04 00:59:33 EST 2018
 path.1=classes.dex
 path.0=classes.dex
 renamed.5=classes6.dex
@@ -7,12 +7,12 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.5=/Users/2718281828/hh-sleepapp/app/build/intermediates/transforms/dexMerger/debug/223
-base.4=/Users/2718281828/hh-sleepapp/app/build/intermediates/transforms/dexMerger/debug/225
-base.3=/Users/2718281828/hh-sleepapp/app/build/intermediates/transforms/dexMerger/debug/222
-base.2=/Users/2718281828/hh-sleepapp/app/build/intermediates/transforms/dexMerger/debug/224
-base.1=/Users/2718281828/hh-sleepapp/app/build/intermediates/transforms/dexMerger/debug/221
-base.0=/Users/2718281828/hh-sleepapp/app/build/intermediates/transforms/dexMerger/debug/226
+base.5=/Users/2718281828/hh-sleepapp/app/build/intermediates/transforms/dexMerger/debug/451
+base.4=/Users/2718281828/hh-sleepapp/app/build/intermediates/transforms/dexMerger/debug/454
+base.3=/Users/2718281828/hh-sleepapp/app/build/intermediates/transforms/dexMerger/debug/453
+base.2=/Users/2718281828/hh-sleepapp/app/build/intermediates/transforms/dexMerger/debug/450
+base.1=/Users/2718281828/hh-sleepapp/app/build/intermediates/transforms/dexMerger/debug/449
+base.0=/Users/2718281828/hh-sleepapp/app/build/intermediates/transforms/dexMerger/debug/452
 path.5=classes.dex
 path.4=classes.dex
 path.3=classes.dex

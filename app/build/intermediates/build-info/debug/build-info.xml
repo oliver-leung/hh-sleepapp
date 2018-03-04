@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1520118461171"
+    timestamp="1520143172886"
     token="-6314389245894438027"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -24,10 +24,13 @@
         duration="0" />
 
     <artifact
-        location="/Users/2718281828/hh-sleepapp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
+        location="/Users/2718281828/hh-sleepapp/app/build/outputs/apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="/Users/2718281828/hh-sleepapp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/2718281828/hh-sleepapp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
     <artifact
         location="/Users/2718281828/hh-sleepapp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
@@ -51,24 +54,24 @@
         location="/Users/2718281828/hh-sleepapp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/2718281828/hh-sleepapp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
         location="/Users/2718281828/hh-sleepapp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/2718281828/hh-sleepapp/app/build/outputs/apk/debug/app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="/Users/2718281828/hh-sleepapp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1520118461171"
+        timestamp="1520143172886"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/2718281828/hh-sleepapp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
+            location="/Users/2718281828/hh-sleepapp/app/build/outputs/apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="/Users/2718281828/hh-sleepapp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/2718281828/hh-sleepapp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/Users/2718281828/hh-sleepapp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
@@ -92,14 +95,11 @@
             location="/Users/2718281828/hh-sleepapp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/2718281828/hh-sleepapp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/2718281828/hh-sleepapp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/2718281828/hh-sleepapp/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="/Users/2718281828/hh-sleepapp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

@@ -13,13 +13,19 @@ public class QuestionnaireResult {
 
 
     static final String[] questions = {"How did you sleep last night?", "How are you feeling now?", "ghfjfhdhtey"};
+    static int currIndex; //from 0-2, gives current index of var questions
+    boolean[] answers = new boolean[3]; // yes/no answer storage
+    Date timestamp; //date that the object was constructed
+    String patientName; //grabbed from patient's machine
 
-    boolean[] answers; //length 3
-    Date timestamp;
-
-    public QuestionnaireResult(boolean[] answers){
-        this.answers=answers;
+    public QuestionnaireResult(String p){
         timestamp = Calendar.getInstance().getTime();
+        patientName=p;
+    }
+
+    public void setAns(int i, boolean b){
+        if(0<=i && i <= 2){answers[i]=b;}
+
     }
 
 

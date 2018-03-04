@@ -31,6 +31,7 @@ public class patientInfo {
     }
 
 
-
-
+    public static String getName() {
+        return name;
+    }
 }

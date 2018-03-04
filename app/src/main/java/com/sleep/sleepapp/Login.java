@@ -20,6 +20,16 @@ public class Login extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
+        Button log = findViewById(R.id.loginButton);
+
+        log.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Login.this, ReportPatient.class));
+            }
+        });
     }
+
+
 
 }
