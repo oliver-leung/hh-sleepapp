@@ -8,5 +8,5 @@ import android.support.v7.app.AppCompatActivity;
 
 public class HomePatient extends AppCompatActivity{
 
-    
+
 }

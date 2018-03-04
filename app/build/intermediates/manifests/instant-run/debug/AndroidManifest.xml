@@ -32,6 +32,14 @@
             android:name="com.sleep.sleepapp.LoginDoc"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name="com.sleep.sleepapp.HomeDoctor"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.sleep.sleepapp.HomePatient"
+            android:label="@string/app_name" >
+        </activity>
 
         <meta-data
             android:name="android.support.VERSION"
